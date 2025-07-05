@@ -1,0 +1,101 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ancali - Tu hogar, tu inversión</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f3f0; color: #333; }
+    header { background: #7d3c3c; color: white; padding: 1em 2em; text-align: center; }
+    nav { background: #5e2c2c; display: flex; justify-content: center; gap: 2em; padding: 0.5em; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 2em; }
+    .hero { background: url('https://via.placeholder.com/1500x400') center/cover no-repeat; color: white; padding: 5em 2em; text-align: center; }
+    .hero h1 { font-size: 2.5em; }
+    .productos, .creditos, .nosotros, .contacto { background: white; margin-bottom: 1em; border-radius: 10px; padding: 2em; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .producto { display: flex; gap: 1em; margin-top: 1em; }
+    .producto img { width: 150px; border-radius: 10px; }
+    form { display: flex; flex-direction: column; gap: 1em; }
+    input, select, textarea { padding: 0.5em; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #7d3c3c; color: white; padding: 0.7em; border: none; border-radius: 5px; cursor: pointer; }
+    footer { background: #5e2c2c; color: white; text-align: center; padding: 1em; margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ancali</h1>
+    <p>Tu hogar, tu inversión</p>
+  </header>
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#creditos">Créditos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Convierte tu casa en el hogar de tus sueños</h1>
+    <p>Con productos de calidad y asesoría financiera personalizada</p>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Productos</h2>
+    <div class="producto">
+      <img src="https://via.placeholder.com/150" alt="Colchón">
+      <div>
+        <h3>Colchón Restonic Matrimonial</h3>
+        <p>Comodidad y soporte garantizado.</p>
+        <p>Precio contado: $4,500 / A crédito: $5,800</p>
+      </div>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/150" alt="Batería de cocina">
+      <div>
+        <h3>Batería de cocina Inter Cuisine</h3>
+        <p>Acero inoxidable, ideal para todo tipo de cocina.</p>
+        <p>Precio contado: $1,800 / A crédito: $2,400</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="creditos" class="creditos">
+    <h2>Créditos y Financiamiento</h2>
+    <p>Te ofrecemos créditos accesibles para productos del hogar o necesidades personales.</p>
+    <ul>
+      <li>Planes semanales personalizados</li>
+      <li>Requisitos mínimos</li>
+      <li>Asesoría financiera incluida</li>
+    </ul>
+    <button>Solicita tu crédito ahora</button>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <h2>Nosotros</h2>
+    <p><strong>Misión:</strong> Ayudar a cubrir necesidades de inversión personales y de microempresas, guiando a nuestros clientes en cada paso.</p>
+    <p><strong>Visión:</strong> Ser la empresa que más apoyos de inversión otorga en Hidalgo.</p>
+    <p><strong>Valores:</strong> Responsabilidad, Honestidad, Formalidad, Compromiso.</p>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo" required>
+      <input type="tel" placeholder="Teléfono" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <select required>
+        <option value="">¿Qué necesitas?</option>
+        <option value="productos">Información de productos</option>
+        <option value="credito">Solicitar crédito</option>
+        <option value="asesoria">Asesoría financiera</option>
+        <option value="otros">Otros</option>
+      </select>
+      <textarea placeholder="Escribe tu mensaje aquí..." rows="4"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>WhatsApp: 55-0000-0000<br>Teléfono: 771-000-0000<br>Ubicación: Tizayuca, Hidalgo</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ancali. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
